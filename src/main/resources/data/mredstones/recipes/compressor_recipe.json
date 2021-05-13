@@ -1,0 +1,42 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_stone"
+    },
+    "1": {
+      "item": "minecraft:smooth_stone"
+    },
+    "2": {
+      "item": "minecraft:smooth_stone"
+    },
+    "3": {
+      "item": "mredstones:wooden_gear"
+    },
+    "4": {
+      "item": "mredstones:compressor_head"
+    },
+    "5": {
+      "item": "mredstones:wooden_gear"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "minecraft:stone"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "mredstones:compresser",
+    "count": 1
+  }
+}

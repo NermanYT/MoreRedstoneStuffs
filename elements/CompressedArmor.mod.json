@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "compressed_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MoreRedstoneStuffs"
     },
     "armorTextureFile": "compressed",
     "helmetName": "Compressed Helmet",

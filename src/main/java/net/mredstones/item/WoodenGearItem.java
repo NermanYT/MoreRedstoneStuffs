@@ -1,13 +1,13 @@
 
 package net.mredstones.item;
 
+import net.mredstones.itemgroup.MoreRedstoneStuffsItemGroup;
 import net.mredstones.MredstonesModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
@@ -25,7 +25,7 @@ public class WoodenGearItem extends MredstonesModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(16).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(MoreRedstoneStuffsItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
 			setRegistryName("wooden_gear");
 		}
 

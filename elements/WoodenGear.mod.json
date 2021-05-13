@@ -6,9 +6,9 @@
     "texture": "wooden_gear",
     "customModelName": "Normal",
     "name": "Wooden Gear",
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MoreRedstoneStuffs"
     },
     "stackSize": 16,
     "enchantability": 0,

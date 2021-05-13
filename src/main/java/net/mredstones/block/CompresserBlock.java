@@ -143,7 +143,7 @@ public class CompresserBlock extends MredstonesModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Compresser");
+						return new StringTextComponent("Compressor");
 					}
 
 					@Override
@@ -275,7 +275,7 @@ public class CompresserBlock extends MredstonesModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Compresser");
+			return new StringTextComponent("Compressor");
 		}
 
 		@Override

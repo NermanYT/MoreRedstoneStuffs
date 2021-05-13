@@ -248,6 +248,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_gear_recipe"
+    },
+    {
+      "name": "CompressorRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressor_recipe"
     }
   ],
   "variable_elements": [],
@@ -270,7 +279,7 @@
       "item.mredstones.compressed_armor_boots": "Compressed Boots",
       "item.mredstones.tiny_redstone_pickaxe": "Tiny Redstone Pickaxe",
       "item.mredstones.compressed_armor_chestplate": "Compressed Chestplate",
-      "block.mredstones.compresser": "Compresser"
+      "block.mredstones.compresser": "Compressor"
     },
     "hu_hu": {
       "block.mredstones.compressed_redstone_block": "Tömörített Redstone-blokk",
@@ -289,7 +298,7 @@
       "item.mredstones.compressed_armor_boots": "Tömörített Redstone cipõ",
       "item.mredstones.tiny_redstone_pickaxe": "Kicsi Redstone Csákány",
       "item.mredstones.compressed_armor_chestplate": "Tömörített Redstone Mellvért",
-      "block.mredstones.compresser": "Compresser"
+      "block.mredstones.compresser": "Kompresszor"
     }
   },
   "foldersRoot": {

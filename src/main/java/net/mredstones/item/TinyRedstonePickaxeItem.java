@@ -28,7 +28,7 @@ public class TinyRedstonePickaxeItem extends MredstonesModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 2.4f;
+				return 1.3f;
 			}
 
 			public float getAttackDamage() {
