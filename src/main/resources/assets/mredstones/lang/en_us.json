@@ -1,0 +1,19 @@
+{
+  "block.mredstones.compressed_redstone_block": "Compressed Redstone Block",
+  "item.frrr.tiny_redstone_piece": "Redstone Piece",
+  "item.mredstones.redstone_pig_spawn_egg": "Nightly Redstone Pig Spawn Egg",
+  "item.mredstones.compressor_head": "Compressor Head",
+  "item.mredstones.wooden_gear": "Wooden Gear",
+  "item.mredstones.compressed_armor_helmet": "Compressed Helmet",
+  "item.mredstones.compressed_armor_leggings": "Compressed Leggings",
+  "item.mredstones.redstone_pickaxe": "Redstone Pickaxe",
+  "item.frrr.tiny_redstone_pickaxe": "Tiny Redstone Pickaxe",
+  "itemGroup.tabmore_redstone_stuffs": "More Redstone Stuffs",
+  "item.mredstones.tiny_redstone_piece": "Tiny Redstone Piece",
+  "entity.mredstones.redstone_pig": "Nightly Redstone Pig",
+  "block.mredstones.double_compressed_redstone": "Double Compressed Redstone",
+  "item.mredstones.compressed_armor_boots": "Compressed Boots",
+  "item.mredstones.tiny_redstone_pickaxe": "Tiny Redstone Pickaxe",
+  "item.mredstones.compressed_armor_chestplate": "Compressed Chestplate",
+  "block.mredstones.compresser": "Compresser"
+}

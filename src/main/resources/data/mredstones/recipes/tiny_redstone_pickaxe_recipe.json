@@ -1,0 +1,26 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "1": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "2": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mredstones:tiny_redstone_pickaxe",
+    "count": 1
+  }
+}

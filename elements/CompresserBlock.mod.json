@@ -1,0 +1,67 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 113,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -26,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Compresser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Compresser",
+          "x": 130,
+          "y": 75
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.REDSTONE"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 192,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.COAL#0"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 216,
+          "y": 72
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 273,
+          "y": 72
+        }
+      }
+    ]
+  }
+}

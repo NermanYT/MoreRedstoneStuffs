@@ -1,0 +1,36 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "1": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "2": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "3": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "5": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "6": {
+      "item": "mredstones:compressed_redstone_block"
+    },
+    "8": {
+      "item": "mredstones:compressed_redstone_block"
+    }
+  },
+  "result": {
+    "item": "mredstones:compressed_armor_leggings",
+    "count": 1
+  }
+}

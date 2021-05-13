@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mredstones:block/double_compressed_redstone"
+    }
+  }
+}

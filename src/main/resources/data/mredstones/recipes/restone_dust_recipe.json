@@ -1,0 +1,42 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "1": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "2": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "3": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "4": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "5": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "6": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "7": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "8": {
+      "item": "mredstones:tiny_redstone_piece"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 1
+  }
+}

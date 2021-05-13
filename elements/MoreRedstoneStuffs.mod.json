@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "More Redstone Stuffs",
+    "icon": {
+      "value": "CUSTOM:TinyRedstonePiece"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mredstones:block/compresser"
+    },
+    "facing=east": {
+      "model": "mredstones:block/compresser",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mredstones:block/compresser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mredstones:block/compresser",
+      "y": 270
+    }
+  }
+}

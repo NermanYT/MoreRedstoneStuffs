@@ -1,0 +1,318 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MoreRedstoneStuffs",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "more_redstone_stuffs"
+    },
+    {
+      "name": "TinyRedstonePiece",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_redstone_piece"
+    },
+    {
+      "name": "TinyRedstonePickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_redstone_pickaxe"
+    },
+    {
+      "name": "RedstonePig",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pig"
+    },
+    {
+      "name": "RedstonePigEntityDies",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pig_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TinyRedstonePieceRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_redstone_piece_recipe"
+    },
+    {
+      "name": "TinyRedstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiny_redstone_pickaxe_recipe"
+    },
+    {
+      "name": "CompressedRedstoneBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_redstone_block_recipe"
+    },
+    {
+      "name": "CompressedRedstoneBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_redstone_block"
+    },
+    {
+      "name": "RedstonePickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pickaxe"
+    },
+    {
+      "name": "RedstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_pickaxe_recipe"
+    },
+    {
+      "name": "RestoneDustRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restone_dust_recipe"
+    },
+    {
+      "name": "CompressedArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CompressedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armor_helmet_recipe"
+    },
+    {
+      "name": "CompressedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armor_body_recipe"
+    },
+    {
+      "name": "CompressedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armor_leggings_recipe"
+    },
+    {
+      "name": "CompressedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_armor_boots_recipe"
+    },
+    {
+      "name": "DoubleCompressedRedstone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "double_compressed_redstone"
+    },
+    {
+      "name": "CompresserBlock",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresser_block"
+    },
+    {
+      "name": "Compresser",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresser"
+    },
+    {
+      "name": "CompressorFuel",
+      "type": "fuel",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressor_fuel"
+    },
+    {
+      "name": "RedstoneFromRedstonepieceRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redstone_from_redstonepiece_recipe"
+    },
+    {
+      "name": "CompressorHead",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressor_head"
+    },
+    {
+      "name": "CompressorHeadRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressor_head_recipe"
+    },
+    {
+      "name": "WoodenGear",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_gear"
+    },
+    {
+      "name": "WoodenGearRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_gear_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mredstones.compressed_redstone_block": "Compressed Redstone Block",
+      "item.frrr.tiny_redstone_piece": "Redstone Piece",
+      "item.mredstones.redstone_pig_spawn_egg": "Nightly Redstone Pig Spawn Egg",
+      "item.mredstones.compressor_head": "Compressor Head",
+      "item.mredstones.wooden_gear": "Wooden Gear",
+      "item.mredstones.compressed_armor_helmet": "Compressed Helmet",
+      "item.mredstones.compressed_armor_leggings": "Compressed Leggings",
+      "item.mredstones.redstone_pickaxe": "Redstone Pickaxe",
+      "item.frrr.tiny_redstone_pickaxe": "Tiny Redstone Pickaxe",
+      "itemGroup.tabmore_redstone_stuffs": "More Redstone Stuffs",
+      "item.mredstones.tiny_redstone_piece": "Tiny Redstone Piece",
+      "entity.mredstones.redstone_pig": "Nightly Redstone Pig",
+      "block.mredstones.double_compressed_redstone": "Double Compressed Redstone",
+      "item.mredstones.compressed_armor_boots": "Compressed Boots",
+      "item.mredstones.tiny_redstone_pickaxe": "Tiny Redstone Pickaxe",
+      "item.mredstones.compressed_armor_chestplate": "Compressed Chestplate",
+      "block.mredstones.compresser": "Compresser"
+    },
+    "hu_hu": {
+      "block.mredstones.compressed_redstone_block": "Tömörített Redstone-blokk",
+      "item.frrr.tiny_redstone_piece": "Redstone darab",
+      "item.mredstones.redstone_pig_spawn_egg": "Éjszakai Redstone Malac Idézõ tojás",
+      "item.mredstones.compressor_head": "Compressor Head",
+      "item.mredstones.wooden_gear": "Wooden Gear",
+      "item.mredstones.compressed_armor_helmet": "Tömörített Redstone Sisak",
+      "item.mredstones.compressed_armor_leggings": "Tömörített Redstone Lábszárvédõ",
+      "item.mredstones.redstone_pickaxe": "Redstone Csákány",
+      "item.frrr.tiny_redstone_pickaxe": "Redstone darab Csákány",
+      "itemGroup.tabmore_redstone_stuffs": "Több Rendstone cucc",
+      "item.mredstones.tiny_redstone_piece": "Redstone darab",
+      "entity.mredstones.redstone_pig": "Éjszakai Redstone malac",
+      "block.mredstones.double_compressed_redstone": "Duplán Tömörített Redstone-blokk",
+      "item.mredstones.compressed_armor_boots": "Tömörített Redstone cipõ",
+      "item.mredstones.tiny_redstone_pickaxe": "Kicsi Redstone Csákány",
+      "item.mredstones.compressed_armor_chestplate": "Tömörített Redstone Mellvért",
+      "block.mredstones.compresser": "Compresser"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mredstones",
+    "modName": "mredstones",
+    "version": "1.0.0",
+    "author": "nermanx",
+    "websiteURL": "https://discord.io/MoszkvaNetwork",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "https://discord.io/MoszkvaNetwork",
+    "modElementsPackage": "net.mredstones",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

@@ -1,0 +1,16 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mredstones:tiny_redstone_piece",
+    "count": 9
+  }
+}

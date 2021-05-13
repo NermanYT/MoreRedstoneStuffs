@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "redstonepickaxe",
+    "customModelName": "Normal",
+    "name": "Redstone Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MoreRedstoneStuffs"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 4.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 3.0,
+    "usageCount": 276,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.REDSTONE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mredstones:items/tiny_redstone_pickaxe"
+  }
+}

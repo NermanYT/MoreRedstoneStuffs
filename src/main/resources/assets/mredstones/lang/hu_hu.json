@@ -1,0 +1,19 @@
+{
+  "block.mredstones.compressed_redstone_block": "Tömörített Redstone-blokk",
+  "item.frrr.tiny_redstone_piece": "Redstone darab",
+  "item.mredstones.redstone_pig_spawn_egg": "Éjszakai Redstone Malac Idéző tojás",
+  "item.mredstones.compressor_head": "Compressor Head",
+  "item.mredstones.wooden_gear": "Wooden Gear",
+  "item.mredstones.compressed_armor_helmet": "Tömörített Redstone Sisak",
+  "item.mredstones.compressed_armor_leggings": "Tömörített Redstone Lábszárvédő",
+  "item.mredstones.redstone_pickaxe": "Redstone Csákány",
+  "item.frrr.tiny_redstone_pickaxe": "Redstone darab Csákány",
+  "itemGroup.tabmore_redstone_stuffs": "Több Rendstone cucc",
+  "item.mredstones.tiny_redstone_piece": "Redstone darab",
+  "entity.mredstones.redstone_pig": "Éjszakai Redstone malac",
+  "block.mredstones.double_compressed_redstone": "Duplán Tömörített Redstone-blokk",
+  "item.mredstones.compressed_armor_boots": "Tömörített Redstone cipő",
+  "item.mredstones.tiny_redstone_pickaxe": "Kicsi Redstone Csákány",
+  "item.mredstones.compressed_armor_chestplate": "Tömörített Redstone Mellvért",
+  "block.mredstones.compresser": "Compresser"
+}

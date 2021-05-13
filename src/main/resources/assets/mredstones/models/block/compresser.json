@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mredstones:blocks/framed_cobble",
+    "up": "mredstones:blocks/framed_cobble",
+    "north": "mredstones:blocks/compressor_front_animated",
+    "east": "mredstones:blocks/bottom",
+    "south": "mredstones:blocks/bottom",
+    "west": "mredstones:blocks/bottom",
+    "particle": "mredstones:blocks/framed_cobble"
+  }
+}

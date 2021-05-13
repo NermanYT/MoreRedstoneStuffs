@@ -1,0 +1,30 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "mredstones:compressor_head",
+    "count": 1
+  }
+}
