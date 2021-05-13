@@ -1,8 +1,6 @@
 
 package net.mredstones.item;
 
-import net.mredstones.itemgroup.MoreRedstoneStuffsItemGroup;
-import net.mredstones.block.CompressedRedstoneBlockBlock;
 import net.mredstones.MredstonesModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -13,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -20,17 +19,17 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 @MredstonesModElements.ModElement.Tag
-public class CompressedArmorItem extends MredstonesModElements.ModElement {
-	@ObjectHolder("mredstones:compressed_armor_helmet")
+public class DeactivatedRedstoneArmorArmorItem extends MredstonesModElements.ModElement {
+	@ObjectHolder("mredstones:deactivated_redstone_armor_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("mredstones:compressed_armor_chestplate")
+	@ObjectHolder("mredstones:deactivated_redstone_armor_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("mredstones:compressed_armor_leggings")
+	@ObjectHolder("mredstones:deactivated_redstone_armor_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("mredstones:compressed_armor_boots")
+	@ObjectHolder("mredstones:deactivated_redstone_armor_armor_boots")
 	public static final Item boots = null;
-	public CompressedArmorItem(MredstonesModElements instance) {
-		super(instance, 8);
+	public DeactivatedRedstoneArmorArmorItem(MredstonesModElements instance) {
+		super(instance, 29);
 	}
 
 	@Override
@@ -58,13 +57,13 @@ public class CompressedArmorItem extends MredstonesModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CompressedRedstoneBlockBlock.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TinyRedstonePieceItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "compressed_armor";
+				return "deactivated_redstone_armor_armor";
 			}
 
 			@Override
@@ -77,29 +76,29 @@ public class CompressedArmorItem extends MredstonesModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(MoreRedstoneStuffsItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "mredstones:textures/models/armor/compressed_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "mredstones:textures/models/armor/deactivatedredstonearmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("compressed_armor_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(MoreRedstoneStuffsItemGroup.tab)) {
+		}.setRegistryName("deactivated_redstone_armor_armor_helmet"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "mredstones:textures/models/armor/compressed_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "mredstones:textures/models/armor/deactivatedredstonearmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("compressed_armor_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(MoreRedstoneStuffsItemGroup.tab)) {
+		}.setRegistryName("deactivated_redstone_armor_armor_chestplate"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "mredstones:textures/models/armor/compressed_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "mredstones:textures/models/armor/deactivatedredstonearmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("compressed_armor_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(MoreRedstoneStuffsItemGroup.tab)) {
+		}.setRegistryName("deactivated_redstone_armor_armor_leggings"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "mredstones:textures/models/armor/compressed_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "mredstones:textures/models/armor/deactivatedredstonearmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("compressed_armor_boots"));
+		}.setRegistryName("deactivated_redstone_armor_armor_boots"));
 	}
 }

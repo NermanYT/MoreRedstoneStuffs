@@ -1,0 +1,16 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "mredstones:double_compressed_redstone"
+    }
+  },
+  "result": {
+    "item": "mredstones:compressed_redstone_block",
+    "count": 9
+  }
+}

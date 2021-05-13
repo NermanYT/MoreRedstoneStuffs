@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "compressed_head",
+    "textureHelmet": "deactivatedredstonearmor_head",
     "enableBody": true,
-    "textureBody": "compressed_body",
+    "textureBody": "deactivatedredstonearmor_body",
     "enableLeggings": true,
-    "textureLeggings": "compressed_leggings",
+    "textureLeggings": "deactivatedredstonearmor_leggings",
     "enableBoots": true,
-    "textureBoots": "compressed_boots",
+    "textureBoots": "deactivatedredstonearmor_boots",
     "creativeTab": {
-      "value": "CUSTOM:MoreRedstoneStuffs"
+      "value": "COMBAT"
     },
-    "armorTextureFile": "compressed",
-    "helmetName": "Compressed Helmet",
-    "bodyName": "Compressed Chestplate",
-    "leggingsName": "Compressed Leggings",
-    "bootsName": "Compressed Boots",
+    "armorTextureFile": "deactivatedredstonearmor",
+    "helmetName": "DeactivatedRedstoneArmor Helmet",
+    "bodyName": "DeactivatedRedstoneArmor Chestplate",
+    "leggingsName": "DeactivatedRedstoneArmor Leggings",
+    "bootsName": "DeactivatedRedstoneArmor Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -51,7 +51,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:CompressedRedstoneBlock"
+        "value": "CUSTOM:TinyRedstonePiece"
       }
     ]
   }

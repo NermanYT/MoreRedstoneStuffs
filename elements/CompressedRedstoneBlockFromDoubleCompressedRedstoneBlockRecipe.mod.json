@@ -5,27 +5,27 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:CompressedRedstoneBlock"
-      },
-      {
-        "value": "CUSTOM:CompressedRedstoneBlock"
-      },
-      {
-        "value": "CUSTOM:CompressedRedstoneBlock"
-      },
-      {
-        "value": "CUSTOM:CompressedRedstoneBlock"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CompressedRedstoneBlock"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DoubleCompressedRedstone"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CompressedArmor.helmet"
+      "value": "CUSTOM:CompressedRedstoneBlock"
     },
-    "name": "compressed_armor_helmet_recipe",
+    "name": "compressedredstoneblock_from_doublecompressedredstoneblockrecipe",
     "namespace": "mod"
   }
 }

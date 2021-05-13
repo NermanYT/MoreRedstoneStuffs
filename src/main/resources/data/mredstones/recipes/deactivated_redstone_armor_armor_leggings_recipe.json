@@ -1,0 +1,36 @@
+{
+  "group": "mredstones",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "1": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "2": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "3": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "5": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "6": {
+      "item": "mredstones:tiny_redstone_piece"
+    },
+    "8": {
+      "item": "mredstones:tiny_redstone_piece"
+    }
+  },
+  "result": {
+    "item": "mredstones:deactivated_redstone_armor_armor_leggings",
+    "count": 1
+  }
+}

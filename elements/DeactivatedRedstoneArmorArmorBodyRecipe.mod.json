@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeactivatedRedstoneArmorArmor.body"
+    },
+    "name": "deactivated_redstone_armor_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

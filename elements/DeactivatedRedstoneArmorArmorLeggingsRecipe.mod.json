@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
+      },
+      {
+        "value": "CUSTOM:TinyRedstonePiece"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:TinyRedstonePiece"
       },
       {
-        "value": "CUSTOM:CompressedRedstoneBlock"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CompressedRedstoneBlock"
-      },
-      {
-        "value": "CUSTOM:CompressedRedstoneBlock"
+        "value": "CUSTOM:TinyRedstonePiece"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CompressedRedstoneBlock"
+        "value": "CUSTOM:TinyRedstonePiece"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CompressedArmor.boots"
+      "value": "CUSTOM:DeactivatedRedstoneArmorArmor.legs"
     },
-    "name": "compressed_armor_boots_recipe",
+    "name": "deactivated_redstone_armor_armor_leggings_recipe",
     "namespace": "mod"
   }
 }
